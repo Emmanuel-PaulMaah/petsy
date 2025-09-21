@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>AR Pet (WebXR + three.js)</title>
+    <meta name="description" content="place a tiny AR pet and tap to trigger animations." />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="ui">
+      <div id="hud">
+        <div class="row small" id="status">find a surface, then tap to place your pet.</div>
+      </div>
+
+      <div id="controls">
+        <button id="reset">reset</button>
+        <button id="pause">pause</button>
+        <button id="btnJump" disabled>jump</button>
+        <button id="btnSpin" disabled>spin</button>
+        <button id="btnDance" disabled>dance</button>
+      </div>
+      <div id="hint">tip: tap the pet to trigger the next animation.</div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
